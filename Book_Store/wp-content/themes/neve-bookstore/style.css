@@ -1,0 +1,18 @@
+/* 
+Theme Name: Online Book Store
+Author: Brandsoft
+Author URI: http://www.brandsoftonline.com
+Template: neve
+Text Domain : neve
+*/
+
+
+
+
+.elementor-column-wrap  .elementor-element-populated{
+	/*padding-top: 0;*/
+}
+
+.elementor-widget-wrap{
+	/*height: 400px;*/
+}

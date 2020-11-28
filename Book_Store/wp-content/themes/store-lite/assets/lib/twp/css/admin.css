@@ -1,0 +1,197 @@
+.widget-content .image-preview-wrap img {
+    max-width: 100%;
+    margin: 20px auto 0;
+}
+
+#setting-error-tgmpa {
+    clear: both;
+    display: block;
+}
+.field-mm-megamenu, .field-mm-column-divider, 
+.menu-item-depth-0 .field-mm-featured-image, 
+.menu-item-depth-0 .field-mm-divider, 
+.menu-item-depth-0 .field-mm-description{
+	display: none !important;
+}
+.menu-item-depth-0 .field-mm-megamenu, 
+.menu-item-depth-1 .field-mm-column-divider, 
+.field-mm-featured-image, 
+.field-mm-divider, 
+.field-mm-description{
+	display: block !important;
+}
+
+
+/*--------------------------------------------------------------
+# Meta
+--------------------------------------------------------------*/
+#store_lite_post_metabox .inside {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#store_lite_post_metabox .handlediv {
+    position: relative;
+    z-index: 1;
+}
+
+#store_lite_post_metabox h2.hndle {
+    background-color: #f3f5f6;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #e2e4e7;
+}
+
+#store_lite_post_metabox .store-meta-panels .store-opt-wrap{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.store-tab-main {
+    background-color: #fbfbfb;
+    position: relative;
+}
+
+.store-tab-main .store-metabox-tab {
+    display: block;
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 225px;
+}
+
+.store-metabox-tab ul {
+    clear: left;
+    margin: 0;
+    list-style-type: none;
+}
+
+.store-metabox-tab ul li {
+    margin-bottom: 0;
+}
+
+.store-metabox-tab ul li a {
+    font-size: 13px;
+    position: relative;
+    display: block;
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid rgba(136, 134, 134, 0.12);
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.store-metabox-tab ul li a:hover,
+.store-metabox-tab ul li a:focus {
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.store-metabox-tab ul li a:hover,
+.store-metabox-tab ul li a:focus {
+    color: #fff;
+    background: #3473e4;
+}
+
+.store-metabox-tab ul li a.twp-tab-active {
+    color: #fff;
+    background: #3062ff;
+}
+
+.store-metabox-tab ul li a.twp-tab-active:after {
+    content: "";
+    position: absolute;
+    right: -1px;
+    top: 50%;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border: solid transparent;
+    border-right-color: #fff;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+.store-tab-main .store-tab-content {
+    background-color: #fff;
+    position: relative;
+    margin-left: 225px;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.store-tab-content .store-content-wrap {
+    display: none;
+}
+
+.store-tab-content .store-content-wrap.store-tab-content-active {
+    display: block;
+}
+
+.store-tab-content .store-meta-title {
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: 300;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+.store-meta-panels .store-opt-wrap {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.store-meta-panels .store-opt-wrap:hover,
+.store-meta-panels .store-opt-wrap:focus {
+    background-color: #f9f9f9;
+}
+
+.store-opt-wrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.store-opt-wrap-alt label {
+    width: 220px;
+}
+
+.store-opt-wrap-alt label,
+.store-opt-wrap textarea,
+.store-opt-wrap select,
+.store-opt-wrap input[type="text"] {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.store-opt-wrap textarea,
+.store-opt-wrap select,
+.store-opt-wrap input[type="text"] {
+    border-color: #E2E6EC;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.store-opt-wrap input[type="text"],
+.store-opt-wrap select {
+    height: 45px;
+    line-height: 45px;
+}
+
+.store-opt-wrap textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

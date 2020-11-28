@@ -1,0 +1,20 @@
+=== v1.0.4 ===
+- Added translation options for default header texts
+- Added option to select categories for shop header
+- Fixed dynamic style for header background
+
+=== v1.0.3 ===
+- Fixed textdomain issue
+- Fixed YITH Wishlist counter issue
+- Fixed YITH Compare counter issue
+
+=== v1.0.2 ===
+- Optimized mobile menu for keyboard navigation
+
+
+=== v1.0.1 ===
+- Fixed keyboard navigation issues
+
+
+=== v1.0.0 ===
+- Initial Release

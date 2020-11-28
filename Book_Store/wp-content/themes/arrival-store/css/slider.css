@@ -1,0 +1,75 @@
+/* Make image 75% width to make room to its right */
+ 
+.single-product div.product .woocommerce-product-gallery .flex-viewport {
+    width: 75%;
+    float: right;
+}
+ 
+/* Make Gallery 25% width and place it beside the image */
+ 
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs {
+    width: 25%;
+    float: right;
+}
+ 
+/* Style each Thumbnail with width and margins */
+ 
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li img {
+    width: 90%;
+    float: none;
+    margin: 0 25px -15px 0;
+}
+
+
+.woocommerce-product-gallery .flex-viewport {
+	width: 250px!important;
+    position: relative!important;
+    overflow: hidden!important;
+}
+
+figure.woocommerce-product-gallery__slide {
+	width: 250px!important;
+	position: absolute;
+	transition: all 1s ease-in-out;
+    overflow: hidden;
+}
+
+figure div.woocommerce-product-gallery__image {
+    width: 250px!important;
+}
+
+
+.woocommerce-product-gallery .nav {
+    position: absolute;
+    right:  40%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 45px;
+    color: #fff;
+    background: rgba(36,33,32,0.4);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+.woocommerce-product-gallery:hover .nav { 
+    opacity: 1
+}
+
+.woocommerce-product-gallery .nav:hover {
+    background: rgba(10,10,10,0.6);
+    color: orangered;
+}
+
+.next {
+    top:0;
+    z-index: 999;
+}
+
+.previous{
+    bottom: 500px;
+    z-index: 999;
+}
